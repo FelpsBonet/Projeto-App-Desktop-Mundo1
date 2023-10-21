@@ -1,4 +1,4 @@
-from banco_de_dados import PerfisDeAcesso
+from Banco_de_dados import PerfisDeAcesso
 
 class Perfil:
 

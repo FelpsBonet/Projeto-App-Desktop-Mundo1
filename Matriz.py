@@ -1,4 +1,4 @@
-from banco_de_dados import MatrizSoD
+from Banco_de_dados import MatrizSoD
 
 class Matriz:
 

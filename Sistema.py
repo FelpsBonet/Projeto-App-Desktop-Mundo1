@@ -1,4 +1,4 @@
-from banco_de_dados import Sistemas
+from Banco_de_dados import Sistemas
 
 class Sistema:
 
