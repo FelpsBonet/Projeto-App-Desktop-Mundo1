@@ -1,2 +1,5 @@
-from banco_de_dados import *
+from Matriz import *
+from Perfil import *
+from Sistema import *
+from Usuario import *
 
