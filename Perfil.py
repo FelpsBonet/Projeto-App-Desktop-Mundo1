@@ -2,6 +2,9 @@ from Banco_de_dados import PerfisDeAcesso
 
 class Perfil:
 
+    def __init__(self):
+        pass
+
     def setCodigoSistema (self, codigo_sistema):
         self.codigo_sistema = codigo_sistema
     

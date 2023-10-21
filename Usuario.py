@@ -2,6 +2,9 @@ from Banco_de_dados import Usuarios
 
 class Usuario:
 
+    def __init__(self):
+        pass
+
     def setCPF (self, cpf):
         self.cpf = cpf
     

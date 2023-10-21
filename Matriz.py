@@ -2,6 +2,9 @@ from Banco_de_dados import MatrizSoD
 
 class Matriz:
 
+    def __init__(self):
+        pass
+
     def setSistema1 (self, sistema1):
         self.sistema1 = sistema1
     

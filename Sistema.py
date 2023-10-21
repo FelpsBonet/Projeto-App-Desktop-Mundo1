@@ -2,6 +2,9 @@ from Banco_de_dados import Sistemas
 
 class Sistema:
 
+    def __init__(self):
+        pass
+
     def setCodigoSistema (self, codigo_sistema):
         self.codigo_sistema = codigo_sistema
     
