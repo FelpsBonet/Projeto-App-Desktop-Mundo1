@@ -1,3 +1,6 @@
+#CLASSE DE ITERAÇÃO SOBRE OS DATAFRAMES, UMA FUNÇÃO PARA CADA.
+#RETORNA EM LISTAS OS DADOS DE CADA CLASSE E ARQUIVO.
+
 from Banco_de_dados import *
 from Matriz import *
 from Perfil import *
@@ -50,7 +53,13 @@ class Controlador:
             usuarios.append (usuario)
         return usuarios
 
-#LOGO ABAIXO TEMOS TESTES PARA IMPRESSÃO DOS DADOS DOS ARQUIVOS, PARA TESTAR RETIRE AS "#" DAS LINHAS "if" ÁTE "print".
+#LOGO ABAIXO TEMOS TESTES PARA IMPRESSÃO DOS DADOS DOS ARQUIVOS USANDO AS FUNÇÕES DO CONTROLADOR.
+#PARA TESTAR RETIRE AS "#" DAS LINHAS "if" ÁTE "print".
+
+#TESTE PRINT PELO ÍNDICE:
+#if __name__ == "__main__":
+#    matriz = Controlador.controlador_matriz (ArquivoMatrizSoD)
+#    print (matriz[0])
 
 #TESTE PRINT PARA SISTEMAS:
 #if __name__ == "__main__":

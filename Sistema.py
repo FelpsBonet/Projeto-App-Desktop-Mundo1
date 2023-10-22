@@ -18,3 +18,6 @@ class Sistema:
     def getNomeSistema (self):
         return self.nome_sistema
     
+    def __str__(self):
+        return (f'{self.codigo_sistema} {self.nome_sistema}')
+    

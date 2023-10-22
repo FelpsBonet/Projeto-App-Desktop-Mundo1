@@ -1,3 +1,5 @@
+#GUARDANDO OS ARQUIVOS CSV EM VARIÁVEIS DATAFRAMES.
+
 import pandas as pd
 
 ArquivoMatrizSoD = pd.read_csv ('MatrizSoD.csv', delimiter = ';')

@@ -24,3 +24,6 @@ class Usuario:
     
     def getNomePerfil (self):
         return self.nome_perfil
+    
+    def __str__(self):
+        return (f'{self.cpf} {self.codigo_sistema} {self.nome_perfil}')

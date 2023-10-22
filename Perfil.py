@@ -25,3 +25,6 @@ class Perfil:
     def getDescricao (self):
         return self.descricao
     
+    def __str__(self):
+        return (f'{self.codigo_sistema} {self.nome_perfil} {self.descricao}')
+    
