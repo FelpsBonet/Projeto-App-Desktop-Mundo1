@@ -28,5 +28,4 @@ class Matriz:
 
     def getPerfil2 (self):
         return self.perfil2
-    
-    
+   

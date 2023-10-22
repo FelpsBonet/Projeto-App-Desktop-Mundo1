@@ -1,9 +1,10 @@
-from Banco_de_dados import Sistemas
+from Banco_de_dados import ArquivoSistemas
 
 class Sistema:
 
-    def __init__(self):
-        pass
+    def __init__(self, codigo_sistema, nome_sistema):
+        self.codigo_sistema = codigo_sistema
+        self.nome_sistema = nome_sistema
 
     def setCodigoSistema (self, codigo_sistema):
         self.codigo_sistema = codigo_sistema
