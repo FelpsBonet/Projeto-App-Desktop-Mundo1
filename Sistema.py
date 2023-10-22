@@ -1,4 +1,4 @@
-from Banco_de_dados import ArquivoSistemas
+#ArquivoSistemas
 
 class Sistema:
 

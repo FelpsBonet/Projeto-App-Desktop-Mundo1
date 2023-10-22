@@ -1,9 +1,11 @@
-from Banco_de_dados import Usuarios
+#ArquivoUsuarios
 
 class Usuario:
 
-    def __init__(self):
-        pass
+    def __init__(self, cpf, codigo_sistema, nome_perfil):
+        self.cpf = cpf
+        self.codigo_sistema = codigo_sistema
+        self.nome_perfil = nome_perfil
 
     def setCPF (self, cpf):
         self.cpf = cpf

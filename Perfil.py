@@ -1,9 +1,11 @@
-from Banco_de_dados import PerfisDeAcesso
+#ArquivoPerfisDeAcesso
 
 class Perfil:
 
-    def __init__(self):
-        pass
+    def __init__(self, codigo_sistema, nome_perfil, descricao):
+        self.codigo_sistema = codigo_sistema
+        self.nome_perfil = nome_perfil
+        self.descricao = descricao
 
     def setCodigoSistema (self, codigo_sistema):
         self.codigo_sistema = codigo_sistema
@@ -17,9 +19,9 @@ class Perfil:
     def getNomePerfil (self):
         return self.nome_perfil
     
-    def setDescrição (self, descrição):
-        self.descrição = descrição
+    def setDescricao (self, descricao):
+        self.descricao = descricao
     
-    def getDescrição (self):
-        return self.descrição
+    def getDescricao (self):
+        return self.descricao
     
